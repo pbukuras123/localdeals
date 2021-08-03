@@ -1,0 +1,22 @@
+<h1>Specials for the Day</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Description</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% @specials.each do |special| %>
+			<tr>
+				<td><%= special.title %></td>
+				<td><%= special.description %></td>
+				<td>Placeholder</td>
+			</tr>
+		<% end %>
+	</tbody>
+
+</table>
